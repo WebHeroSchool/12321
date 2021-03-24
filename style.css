@@ -13,7 +13,7 @@ body{
  }
 
 .logo{
-  margin-right: 63%
+  margin-right: 63%;
   padding: 40px 0;
   }
 
@@ -24,13 +24,18 @@ body{
 }
 
 .menu-item{
-  padding: 1px 13px;
+  padding: 0 13px;
+  justify-content: space-around;
+  margin-right: 30px;
 }
 
 .menu-item:last-child{
-  padding:0;
+  padding: 0;
 }
 
+.enter{
+  opacity: 0;
+}
 .main-content__title {
 font-family: 'Roboto', sans-serif;
 }
