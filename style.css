@@ -47,7 +47,7 @@ body{
   justify-content: space-between;
 }
 
-.menu-item{
+.menu__item{
   position: relative;
   margin-right: 26px;
   justify-content: space-around;
