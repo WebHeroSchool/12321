@@ -107,5 +107,5 @@ font: bold 50px/65px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__button:hover{
-  opacity: 0.5s;
+  opacity: 0.5;
 }
