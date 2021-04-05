@@ -86,8 +86,9 @@ body{
 .main__title {
   width: 567px;
   height: 255px;
-  top: 500px;
+  top: 318px;
   margin: 0 0 40px 0;
+  align-items: center;
 font: 700 66px/87px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
