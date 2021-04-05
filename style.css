@@ -79,12 +79,11 @@ body{
 }
 
 .main {
-  padding-right: 0 63% 100px 0;
+  padding-right: 63%;
   background: top right no-repeat url(img/mainImg.svg);
 }
 
 .main__title {
-  position: absolute;
   width: 567px;
   height: 255px;
   top: 318px;
@@ -104,7 +103,6 @@ font: 700 66px/87px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__subtitle{
-  position: absolute;
   width: 455px;
   height: 52px;
   top: 613px;
@@ -113,7 +111,6 @@ font: 700 66px/87px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__button{
-  position: absolute;
   width: 271px;
   height: 29px;
   top: 706px;
@@ -161,6 +158,6 @@ font: 700 66px/87px 'pt_serifregular',arial,helvetica, sans-serif;
    font: 500 16px/19px 'Roboto',arial,helvetica,sans-serif;
  }
  .main-button{
-   font:500 14px/16px 'Roboto',arial,helvetica,sans-serif;
+   font: 500 14px/16px 'Roboto',arial,helvetica,sans-serif;
  }
 }
