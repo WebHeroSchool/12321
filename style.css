@@ -79,7 +79,7 @@ body{
 }
 
 .main {
-  padding-right: 63%;
+  padding: 0 63% 250px 0;
   background: top right no-repeat url(img/mainImg.svg);
 }
 
