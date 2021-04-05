@@ -88,7 +88,14 @@ font: bold 50px/65px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
+  color: black;
   background: #ECF3FF;
+  cursor: pointer;
+  transition: color .8s easy-out;
+}
+
+.main__title-text_highlight:hover{
+ color: #7f6262;
 }
 .main__subtitle{
   margin: 0 0 41px 0;
