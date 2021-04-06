@@ -10,7 +10,7 @@ body{
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 97px;
+  margin-bottom: 85px;
  }
 
 .logo{
@@ -51,7 +51,7 @@ body{
 
 .menu__item{
   position: relative;
-  margin-right: 23px;
+  margin-right: 28px;
   height: 22px;
   justify-content: space-between;
   font: 500 18px/21px 'Roboto',arial,helvetica,sans-serif;
