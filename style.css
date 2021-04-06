@@ -51,7 +51,7 @@ body{
 
 .menu__item{
   position: relative;
-  margin-right: 28px;
+  margin-right: 27px;
   height: 22px;
   justify-content: space-between;
   font: 500 18px/21px 'Roboto',arial,helvetica,sans-serif;
