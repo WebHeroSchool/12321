@@ -10,11 +10,11 @@ body{
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 85px;
+  margin-bottom: 125px;
  }
 
 .logo{
-  margin: 0 63% 115px 0;
+  margin-right: 63%;
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
@@ -90,7 +90,7 @@ body{
   height: 380px;
   top: 250px;
   margin: 0 0 40px 0;
-font: 700 66px/87px 'pt_serifbold_italic',arial,helvetica, sans-serif;
+font: bold 66px/87px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
