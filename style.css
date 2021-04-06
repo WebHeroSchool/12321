@@ -79,6 +79,7 @@ body{
 }
 
 .main {
+  padding-bottom: 350px;
   padding-right: 63%;
   background: top right no-repeat url(img/mainImg.svg);
 }
@@ -143,7 +144,7 @@ font: 700 66px/87px 'pt_serifregular',arial,helvetica, sans-serif;
 
  .main{
    text-align: center;
-   padding: 74% 0 0;
+   padding: 0 74% 0 0;
    background-size: 74%;
    background-position: top center;
  }
