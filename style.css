@@ -134,9 +134,8 @@ font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main_curcle{
-  position:absolute;
   left: 944px;
-  top: 1032px'
+  top: 1032px;
   width: 8px;
   height: 8px;
   background: #C8DBFB;
