@@ -134,24 +134,11 @@ font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main_curcle{
-  top: 1032px;
-  width: 8px;
+  background: url(img/curcleImg.svg)
+  padding: 0 39%;
+  weight: 32px;
   height: 8px;
-  background: #C8DBFB;
-  opacity: 0.7;
-  border-radius: 50%;
-  margin-right: 4px;
-}
-.main_curcle1{
-  left: 944px;
-}
-
-.main_curcle2{
-  left: 948px
-}
-
-.main_curcle3{
-  left: 952px
+  margin: 0 auto;
 }
 
 @media(max-width: 768px){
