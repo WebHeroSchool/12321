@@ -113,10 +113,10 @@ font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__button{
-  width: 247px;
+  width: 230px;
   height: 20px;
   display: inline-block;
-  font: 500 21px/21px 'Roboto',arial,helvetica,sans-serif;
+  font: 18px/17px 'Roboto',arial,helvetica,sans-serif;
   color: #fff;
   background: #0056EC;
   padding: 18px 21px;
