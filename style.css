@@ -10,7 +10,7 @@ body{
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 207px;
+  margin-bottom: 132px;
  }
 
 .logo{
@@ -88,6 +88,7 @@ body{
 .main__title {
   width: 543px;
   height: 280px;
+  padding-top: 75px;
   margin: 0 0 20px 0;
 font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
