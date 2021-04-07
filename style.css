@@ -133,6 +133,16 @@ font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
   opacity: 1;
 }
 
+.main_curcle{
+  position:absolute;
+  justify-content: center;
+  align-items: flex-end;
+  width: 8px;
+  height: 8px;
+  background: #C8DBFB;
+  opacity: 0.7;
+}
+
 @media(max-width: 768px){
  .menu{
     display: none;
