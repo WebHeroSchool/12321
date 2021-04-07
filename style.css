@@ -87,10 +87,9 @@ body{
 
 .main__title {
   width: 567px;
-  height: 400px;
-  top: 280px;
+  height: 280px;
   margin: 0 0 40px 0;
-font: bold 66px/87px 'pt_serifregular',arial,helvetica, sans-serif;
+font: bold 66px/97px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
