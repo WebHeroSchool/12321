@@ -134,7 +134,7 @@ font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main_curcle{
-  background: url('img/curcleImg.svg')
+  background: url('img/curcleImg.svg');
   padding: 0 39%;
   weight: 32px;
   height: 8px;
