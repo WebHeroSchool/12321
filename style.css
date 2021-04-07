@@ -10,7 +10,7 @@ body{
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 125px;
+  margin-bottom: 207px;
  }
 
 .logo{
@@ -89,7 +89,7 @@ body{
   width: 567px;
   height: 280px;
   margin: 0 0 40px 0;
-font: bold 66px/97px 'pt_serifregular',arial,helvetica, sans-serif;
+font: bold 73px/95px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
