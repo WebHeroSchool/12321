@@ -134,7 +134,6 @@ font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main_curcle{
-  left: 944px;
   top: 1032px;
   width: 8px;
   height: 8px;
@@ -142,6 +141,17 @@ font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
   opacity: 0.7;
   border-radius: 50%;
   margin-right: 4px;
+}
+.main_curcle1{
+  left: 944px;
+}
+
+.main_curcle2{
+  left: 948px
+}
+
+.main_curcle3{
+  left: 952px
 }
 
 @media(max-width: 768px){
