@@ -83,14 +83,13 @@ body{
   padding-bottom: 350px;
   padding-right: 63%;
   background: top right no-repeat url(img/mainImg.svg);
-  background-position: top;
 }
 
 .main__title {
   width: 543px;
   height: 280px;
   margin: 0 0 40px 0;
-font: bold 72px/92px 'pt_serifregular',arial,helvetica, sans-serif;
+font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
@@ -113,9 +112,8 @@ font: bold 72px/92px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__button{
-  width: 271px;
-  height: 29px;
-  top: 706px;
+  width: 265px;
+  height: 25px;
   display: inline-block;
   font: 500 21px/21px 'Roboto',arial,helvetica,sans-serif;
   color: #fff;
