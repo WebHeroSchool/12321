@@ -54,7 +54,7 @@ body{
   margin-right: 27px;
   height: 22px;
   justify-content: space-between;
-  font: 500 18px/21px 'Roboto',arial,helvetica,sans-serif;
+  font: 500 18px/ 21px 'Roboto',arial,helvetica,sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
