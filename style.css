@@ -22,6 +22,7 @@ body{
   padding: 0 40px 0 44px;
   width: 190px;
   height: 35px;
+  margin-right: 63%;
   font: bold 26px/ 27px 'pt_serifregular',arial ,helvetica,sans-serif;
   }
 
@@ -104,6 +105,7 @@ body{
 }
 
 .main__title {
+  padding-top: 75px;
   width: 567px;
   height: 255px;
   margin: 0 0 40px 0;
