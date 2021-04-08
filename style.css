@@ -21,13 +21,13 @@ body{
   width: 192px;
   height: 35px;
   margin-right: 63%;
-  font: bold 26px/ 28px 'pt_serifregular',arial ,helvetica,sans-serif;
+  font: bold 26px/ 29px 'pt_serifregular',arial ,helvetica,sans-serif;
   }
 
   .logo_circle{
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 49%;
     transform: translateY(-50%);
     width: 28px;
     height: 28px;
