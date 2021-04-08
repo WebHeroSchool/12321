@@ -19,11 +19,6 @@ body{
 .logo{
   width: 190px;
   height: 35px;
-  margin-right: 63%;
-  position: relative;
-  padding: 40px 0;
-  padding-left: 44px;
-  left: 5px;
   font: bold 26px/ 27px 'pt_serifregular',arial ,helvetica,sans-serif;
   }
 
@@ -56,7 +51,6 @@ body{
 .menu__item{
   position: relative;
   margin-right: 26px;
-  height: 22px;
   font: 18px/21px 'Roboto',arial,helvetica,sans-serif;
   color: #000;
   text-decoration: none;
@@ -109,7 +103,6 @@ body{
 .main__title {
   width: 567px;
   height: 255px;
-  padding-top: 75px;
   margin: 0 0 40px 0;
 font: bold 66px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
@@ -126,16 +119,11 @@ font: bold 66px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__subtitle{
-  width: 455px;
-  height: 52px;
-  top: 613px;
   margin: 0 0 41px 0;
   font: 400 22px/26px 'Roboto',arial,helvetica,sans-serif;
 }
 
 .main__button{
-  width: 230px;
-  height: 20px;
   display: inline-block;
   font: 500 18px/21px 'Roboto',arial,helvetica,sans-serif;
   color: #fff;
