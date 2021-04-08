@@ -124,11 +124,16 @@ font: bold 66px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__subtitle{
+  width: 455px;
+  height: 52px;
+  top: 613px;
   margin: 0 0 41px 0;
   font: 400 22px/26px 'Roboto',arial,helvetica,sans-serif;
 }
 
 .main__button{
+  width: 230px;
+  height: 20px;
   display: inline-block;
   font: 500 18px/21px 'Roboto',arial,helvetica,sans-serif;
   color: #fff;
