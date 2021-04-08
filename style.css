@@ -5,7 +5,6 @@ body{
 .wrapper{
   margin: auto;
   width: 80%;
-  padding-left: 13px;
   }
 
 .header{
@@ -100,7 +99,7 @@ body{
 }
 
 .main {
-  padding: 0 63% 350px 0;
+  padding: 0 63% 365px 0;
   background: top right no-repeat url('img/mainImg.svg');
 }
 
