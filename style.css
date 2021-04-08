@@ -27,7 +27,7 @@ body{
   .logo_circle{
     position: absolute;
     left: 0;
-    top: 40%;
+    top: 39%;
     transform: translateY(-50%);
     width: 28px;
     height: 28px;
