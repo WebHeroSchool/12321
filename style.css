@@ -4,16 +4,21 @@ body{
 
 .wrapper{
   margin: auto;
-  width: 80%;
+  max-width: 1523px;
+  max-height: 1080px;
+  padding: 0 189px;
   }
 
 .header{
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 132px;
+  margin-bottom: 128px;
  }
 
 .logo{
+  width: 190px;
+  height: 35px;
   margin-right: 63%;
   position: relative;
   padding: 40px 0;
@@ -46,21 +51,20 @@ body{
 .menu{
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .menu__item{
   position: relative;
-  margin-right: 27px;
+  margin-right: 26px;
   height: 22px;
-  justify-content: space-between;
-  font: 500 18px/21px 'Roboto',arial,helvetica,sans-serif;
+  font: 18px/21px 'Roboto',arial,helvetica,sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
 }
 
 .menu__item::after{
+  position: absolute;
   display: block;
   content: '';
   left: 0;
@@ -69,6 +73,24 @@ body{
   background: #0056EC;
   opacity: 0;
   transition: opacity 0.5s,width 0.5s;
+}
+
+.menu__item_active::after{
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity 0.5s,width 0.5s;
+}
+
+.menu__item:hover::after,
+.menu__item_active::after {
+  opacity: 1;
+  width: 100%;
 }
 
 .menu__item:hover{
@@ -80,17 +102,16 @@ body{
 }
 
 .main {
-  padding-bottom: 350px;
-  padding-right: 63%;
+  padding: 75px 70% 241px 0;
   background: top right no-repeat url('img/mainImg.svg');
 }
 
 .main__title {
-  width: 543px;
-  height: 280px;
+  width: 567px;
+  height: 255px;
   padding-top: 75px;
-  margin: 0 0 20px 0;
-font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
+  margin: 0 0 40px 0;
+font: bold 66px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
@@ -108,18 +129,18 @@ font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
   width: 455px;
   height: 52px;
   top: 613px;
-  margin: 0 0 40px 0;
-  font: normal 22px/26px 'Roboto',arial,helvetica,sans-serif;
+  margin: 0 0 41px 0;
+  font: 400 22px/26px 'Roboto',arial,helvetica,sans-serif;
 }
 
 .main__button{
   width: 230px;
   height: 20px;
   display: inline-block;
-  font: 18px/17px 'Roboto',arial,helvetica,sans-serif;
+  font: 500 18px/21px 'Roboto',arial,helvetica,sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 18px 21px;
+  padding: 18px 27px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity 0.5s;
