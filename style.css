@@ -8,7 +8,7 @@ body{
   }
 
 .header{
-  padding-top: 41px;
+  padding: 41px 0;
   display: flex;
   justify-content: space-between;
   margin-bottom: 132px;
