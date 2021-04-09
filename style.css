@@ -104,11 +104,12 @@ body{
 }
 
 .main__title {
-  padding: 135px 10px 0 0;
+  padding: 75px 10px 0 0;
   width: 550px;
   height: 286px;
   font: bold 73px/86px 'pt_serifregular',arial,helvetica, sans-serif;
   display: inline;
+  margin-top: 60px;
 }
 
 .main__title-text_highlight{
