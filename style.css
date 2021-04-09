@@ -108,7 +108,7 @@ body{
   width: 546px;
   height: 286px;
   margin: 0 0 20px 0;
-font: bold 71px/88px 'pt_serifregular',arial,helvetica, sans-serif;
+font: bold 73px/86px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
@@ -120,6 +120,7 @@ font: bold 71px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 
 .main__title-text_highlight:hover{
  color: #7f6262;
+
 }
 
 .main__subtitle{
