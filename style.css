@@ -172,7 +172,7 @@ margin-bottom: 78px;
 
 .menu__item {
 margin-right: 25px;
-font: 14px/16px 'robotomedium',arial,helvetica,sans-serif;
+font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
 }
 
 .menu__item::after {
@@ -198,13 +198,13 @@ max-height: 199px;
 
 .main__subtitle {
 margin: 0 0 41px 0;
-font: 18px/21px 'robotoregular',arial,helvetica,sans-serif;
+font: 18px/21px 'Roboto',arial,helvetica,sans-serif;
 width: 367px;
 height: 43px;
 }
 
 .main__button {
-font: 14px/16px 'robotomedium',arial,helvetica,sans-serif;
+font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
 padding: 14px 20px;
 }
 }
@@ -223,7 +223,7 @@ margin-bottom: 80px;
 
 .menu__item {
 margin-right: 25px;
-font: 14px/16px 'robotomedium',arial,helvetica,sans-serif;
+font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
 }
 
 .menu__item::after {
@@ -255,7 +255,7 @@ height: 48px;
 }
 
 .main__button {
-font: 14px/16px 'robotomedium',arial,helvetica,sans-serif;
+font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
 padding: 14px 20px;
 }
 }
@@ -294,13 +294,13 @@ height: 96px;
 
 .main__subtitle {
 margin: 0 0 25px 0;
-font: 16px/19px 'robotomedium',arial,helvetica,sans-serif;
+font: 16px/19px 'Roboto',arial,helvetica,sans-serif;
 max-width: 275px;
 max-height: 57px;
 }
 
 .main__button {
-font: 14px/16px 'robotomedium',arial,helvetica,sans-serif;
+font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
 padding: 14px 20px;
   }
 }
