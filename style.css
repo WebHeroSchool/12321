@@ -105,13 +105,14 @@ body{
 
 .main__title {
   padding: 75px 0 11px 0;
-  width: 544px;
+  width: 546px;
   height: 286px;
   margin: 0 0 20px 0;
 font: bold 71px/78px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
+  padding-top: 12px;
   color: black;
   background: #ECF3FF;
   cursor: pointer;
