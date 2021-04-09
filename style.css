@@ -20,7 +20,7 @@ body{
   padding: 0 0 0 45px;
   width: 192px;
   height: 35px;
-  margin-right: 64%;
+  margin-right: 65%;
   font: bold 26px/ 30px 'pt_serifregular',arial ,helvetica,sans-serif;
   }
 
@@ -105,9 +105,10 @@ body{
 
 .main__title {
   padding: 75px 10px 0 0;
-  width: 546px;
+  width: 550px;
   height: 286px;
-font: bold 73px/86px 'pt_serifregular',arial,helvetica, sans-serif;
+  font: bold 73px/86px 'pt_serifregular',arial,helvetica, sans-serif;
+  display: inline;
 }
 
 .main__title-text_highlight{
