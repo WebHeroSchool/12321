@@ -106,9 +106,9 @@ body{
 .main__title {
   padding-top: 75px;
   width: 544px;
-  height: 270px;
+  height: 276px;
   margin: 0 0 20px 0;
-font: bold 71px/82px 'pt_serifregular',arial,helvetica, sans-serif;
+font: bold 71px/80px 'pt_serifregular',arial,helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
