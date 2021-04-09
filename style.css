@@ -21,7 +21,7 @@ body{
   width: 192px;
   height: 35px;
   margin-right: 63%;
-  font: bold 26px/ 29px 'pt_serifregular',arial ,helvetica,sans-serif;
+  font: bold 26px/ 30px 'pt_serifregular',arial ,helvetica,sans-serif;
   }
 
   .logo_circle{
@@ -53,7 +53,7 @@ body{
 
 .menu__item{
   position: relative;
-  margin-right: 27px;
+  margin-right: 28px;
   font: 18px/21px 'Roboto',arial,helvetica,sans-serif;
   color: #000;
   text-decoration: none;
@@ -105,8 +105,8 @@ body{
 
 .main__title {
   padding-top: 75px;
-  width: 543px;
-  height: 280px;
+  width: 544px;
+  height: 274px;
   margin: 0 0 20px 0;
 font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
