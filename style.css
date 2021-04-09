@@ -53,7 +53,7 @@ body{
 
 .menu__item{
   position: relative;
-  margin-right: 28px;
+  margin-right: 27px;
   font: 18px/21px 'Roboto',arial,helvetica,sans-serif;
   color: #000;
   text-decoration: none;
@@ -106,7 +106,7 @@ body{
 .main__title {
   padding-top: 75px;
   width: 544px;
-  height: 274px;
+  height: 270px;
   margin: 0 0 20px 0;
 font: bold 72px/88px 'pt_serifregular',arial,helvetica, sans-serif;
 }
