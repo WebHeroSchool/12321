@@ -19,8 +19,8 @@ body{
   left: 5px;
   padding: 0 0 0 45px;
   width: 192px;
-  height: 35px;
-  margin-right: 65%;
+  height: 34px;
+  margin-right: 64%;
   font: bold 26px/ 30px 'pt_serifregular',arial ,helvetica,sans-serif;
   }
 
@@ -105,11 +105,9 @@ body{
 
 .main__title {
   padding: 75px 10px 0 0;
-  width: 550px;
-  height: 286px;
+  width: 545px;
+  height: 284px;
   font: bold 73px/86px 'pt_serifregular',arial,helvetica, sans-serif;
-  display: inline;
-  margin-top: 60px;
 }
 
 .main__title-text_highlight{
@@ -127,7 +125,6 @@ body{
 .main__subtitle{
   width: 455px;
   height: 52px;
-  top: 613px;
   margin: 0 0 41px 0;
   font: 400 22px/26px 'Roboto',arial,helvetica,sans-serif;
 }
