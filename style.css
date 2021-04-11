@@ -19,7 +19,7 @@ body {
 .logo {
   width: 190px;
   height: 35px;
-  background: url('img/logo.svg');
+  background: no-repeat url('img/logo.svg');
 }
 
 .menu {
@@ -348,7 +348,7 @@ max-height: 592px;
     display: block;
     margin-bottom: 25px;
     color: #000;
-    font: 30px/35px 'robotomedium', arial, helvetica, sans-serif;
+    font: 30px/35px 'Roboto', arial, helvetica, sans-serif;
     text-decoration: none;
     transition: opacity 0.5s;
 }
