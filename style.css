@@ -328,7 +328,7 @@ max-height: 592px;
     top: 8px;
 }
 
-.menu__box {
+  .menu__box {
     display: initial;
     margin: auto;
     padding: 186px 0 205px 0;
@@ -341,7 +341,7 @@ max-height: 592px;
     list-style: none;
     text-align: center;
     background-color: #fff;
-    transition: opacity .5s;
+    transition: opacity 0.5s;
 }
 
   .menu__item__box {
