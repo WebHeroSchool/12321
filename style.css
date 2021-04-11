@@ -152,7 +152,7 @@ body {
 
 .main {
     padding: 15px 68% 147px 0;
-    background: top right no-repeat url('img/image1366.svg');
+    background: top right no-repeat url('img/1366.svg');
 }
 
 .main__title {
@@ -211,7 +211,7 @@ body {
 
 .main {
     padding: 15px 57% 147px 0;
-    background: top right no-repeat url('img/image1024.svg');
+    background: top right no-repeat url('img/1024.svg');
 }
 
 .main__title {
@@ -268,7 +268,7 @@ body {
 .main {
     text-align: center;
     padding: 74% 0 0 0;
-    background: top center no-repeat url('img/imagemobile.svg');
+    background: top center no-repeat url('img/mobile.svg');
 }
 
 .main__title {
