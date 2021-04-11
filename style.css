@@ -1,87 +1,70 @@
-body{
+body {
   margin: 0;
-  }
+}
 
-.wrapper{
+.wrapper {
+  padding: 0 189px;
   margin: auto;
-  width: 79.5%;
-  }
+  width: 1523px;
+  height: 1080px;
+}
 
-.header{
-  padding: 40px 0 36px 0;
+.header {
+  padding: 40px 0;
+  margin-bottom: 125px;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 132px;
- }
-
-.logo{
-  position: relative;
-  left: 5px;
-  padding: 0 0 0 39px;
-  width: 192px;
-  height: 34px;
-  margin-right: 62.9%;
-  font: bold 26px/ 32px 'pt_serifregular',arial ,helvetica,sans-serif;
-  }
-
-  .logo_circle{
-    position: absolute;
-    left: -6px;
-    top: 39%;
-    transform: translateY(-50%);
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    opacity: .7;
-    }
-
-    .logo_circle_color_dark-blue{
-      background: #0056EC;
-    }
-
-    .logo_circle_color_blue{
-      left: 3px;
-      top: 56%;
-      background: #C8DBFB;
-    }
-
-.menu{
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-.menu__item{
+.logo {
+  width: 190px;
+  height: 35px;
+  background: url('img/logo.svg');
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 1px 3px 0 0;
+}
+
+.menu__item {
   position: relative;
   margin-right: 26px;
-  font: 18px/21px 'Roboto',arial,helvetica,sans-serif;
+  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
 }
 
-.menu__item::after{
-  position: absolute;
-  display: block;
-  content: '';
-  left: 0;
-  width: 0;
-  height: 3px;
-  background: #0056EC;
-  opacity: 0;
-  transition: opacity 0.5s,width 0.5s;
+.menu__item:last-child {
+  margin-right: 0;
 }
 
-.menu__item_active::after{
+.menu__item::after {
   position: absolute;
+  left: 0;
   display: block;
   content: '';
-  left: 0;
-  width: 0;
+  width: 100%;
   height: 3px;
-  background: #0056EC;
+  background: #0056ec;
   opacity: 0;
-  transition: opacity 0.5s,width 0.5s;
+  transition: opacity 0.5s;
+}
+
+.menu__item_active::after {
+  position: absolute;
+  left: 0;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: #0056ec;
+}
+
+.menu__item:hover {
+  opacity: 0.5;
 }
 
 .menu__item:hover::after,
@@ -90,86 +73,50 @@ body{
   width: 100%;
 }
 
-.menu__item:hover{
-  opacity: 0.5;
-}
-
-.menu-item:last-child{
-  margin-right: 0;
-}
-
 .main {
-  padding: 0 63% 287px 0;
+  padding: 75px 70% 269px 0;
   background: top right no-repeat url('img/mainImg.svg');
 }
 
 .main__title {
-  letter-spacing: 1px;
-  padding: 75px 10px 0 0;
+  margin: 0 0 43px 0;
+  font: bold 66px/88px 'pt_serifbold', arial, helvetica, sans-serif;
   width: 567px;
-  height: 242px;
-  font: bold 64px/87px 'pt_serifbold',arial,helvetica, sans-serif;
+  height: 255px;
 }
 
-.main__title-text_highlight{
-  position: relative;
-  color: black;
+.main__title-text_highlight {
   background: linear-gradient(to top, #ecf3ff 78%, #fff 22%);
-  cursor: pointer;
-  transition: color .8s easy-out;
 }
 
-.main__title-text_highlight:hover{
- color: #7f6262;
-
+.main__subtitle {
+  margin: 0 0 42px 0;
+  font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
-.noname{
-  position: absolute;
-}
-
-.main__subtitle{
-  width: 455px;
-  height: 50px;
-  padding: 0 0 40px 0;
-  font: 400 21.5px/26px 'Roboto',arial,helvetica,sans-serif;
-}
-
-.main__button{
-  width: 225px;
-  height: 20px;
-  display: inline;
-  font: 17.9px/22px 'Roboto',arial,helvetica,sans-serif;
+.main__button {
+  display: inline-block;
+  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
-  background: #0056EC;
-  padding: 18px 32px 18px 18.5px;
+  background: no-repeat #0056ec;
+  padding: 18px 34px 17px 21px;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity 0.5s;
+  transition: 0.5s;
 }
 
-.main__button:hover{
-  opacity: 0.5;
-}
+.main__button:hover { opacity: 0.5; }
 
-.main__button:hover: after{
-  opacity: 1;
-}
-
-.main_curcle{
-  background: no-repeat url('img/curcleImg.svg');
+.main_curcle {
+  margin: auto;
   width: 32px;
   height: 8px;
-  margin: 0 auto;
+  background: no-repeat url('img/curcleImg.svg');
 }
 
-.menu__box{
-  display: none;
-}
+.menu__box { display: none; }
 
-#menu__toggle{
-  opacity: 0;
-}
+#menu__toggle { opacity: 0; }
 
 @media (max-width:1366px) {
 .wrapper {
@@ -303,7 +250,7 @@ justify-content: space-between;
 .logo {
 width: 36px;
 height: 35px;
-background: url('img/menumobile.svg');
+background: no-repeat url('img/menumobile.svg');
 }
 
 .menu {
