@@ -4,7 +4,7 @@ body{
 
 .wrapper{
   margin: auto;
-  width: 84.8%;
+  width: 79.5%;
   }
 
 .header{
@@ -26,7 +26,7 @@ body{
 
   .logo_circle{
     position: absolute;
-    left: -4px;
+    left: -2px;
     top: 39%;
     transform: translateY(-50%);
     width: 28px;
