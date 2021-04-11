@@ -34,7 +34,7 @@ body {
   font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  transition: opacity 0.5s;
+  transition: opacity .5s;
 }
 
 .menu__item:last-child {
@@ -50,7 +50,7 @@ body {
   height: 3px;
   background: #0056ec;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity .5s;
 }
 
 .menu__item_active::after {
@@ -64,11 +64,10 @@ body {
 }
 
 .menu__item:hover {
-  opacity: 0.5;
+  opacity: .5;
 }
 
-.menu__item:hover::after,
-.menu__item_active::after {
+.menu__item:hover::after,.menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
@@ -80,7 +79,7 @@ body {
 
 .main__title {
   margin: 0 0 43px 0;
-  font: bold 66px/88px 'pt_serifbold', arial, helvetica, sans-serif;
+  font: bold 66px/88px 'pt_serifbold',arial,helvetica,sans-serif;
   width: 567px;
   height: 255px;
 }
@@ -91,12 +90,12 @@ body {
 
 .main__subtitle {
   margin: 0 0 42px 0;
-  font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
+  font: 400 22px/26px 'Roboto',arial,helvetica,sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  font: 18px/21px 'Roboto',arial,helvetica,sans-serif;
   color: #fff;
   background: no-repeat #0056ec;
   padding: 18px 34px 17px 21px;
@@ -105,7 +104,9 @@ body {
   transition: 0.5s;
 }
 
-.main__button:hover { opacity: 0.5; }
+.main__button:hover {
+  opacity: 0.5;
+}
 
 .main_curcle {
   margin: auto;
@@ -114,9 +115,13 @@ body {
   background: no-repeat url('img/curcleImg.svg');
 }
 
-.menu__box { display: none; }
+.menu__box {
+  display: none;
+}
 
-#menu__toggle { opacity: 0; }
+#menu__toggle {
+  opacity: 0;
+}
 
 @media (max-width:1366px) {
 .wrapper {
