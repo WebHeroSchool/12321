@@ -20,13 +20,13 @@ body{
   padding: 0 0 0 45px;
   width: 192px;
   height: 34px;
-  margin-right: 58.2%;
+  margin-right: 62.9%;
   font: bold 26px/ 32px 'pt_serifregular',arial ,helvetica,sans-serif;
   }
 
   .logo_circle{
     position: absolute;
-    left: -4px;
+    left: -6px;
     top: 39%;
     transform: translateY(-50%);
     width: 28px;
@@ -40,7 +40,7 @@ body{
     }
 
     .logo_circle_color_blue{
-      left: 8px;
+      left: 3px;
       top: 56%;
       background: #C8DBFB;
     }
@@ -134,7 +134,7 @@ body{
   width: 225px;
   height: 20px;
   display: inline;
-  font: 18px/21px 'Roboto',arial,helvetica,sans-serif;
+  font: 18px/22px 'Roboto',arial,helvetica,sans-serif;
   color: #fff;
   background: #0056EC;
   padding: 18px 32px 17px 23px;
