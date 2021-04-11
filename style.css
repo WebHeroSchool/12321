@@ -8,7 +8,7 @@ body{
   }
 
 .header{
-  padding: 40px 0 36px 49px;
+  padding: 40px 0 36px 45px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 132px;
@@ -20,13 +20,13 @@ body{
   padding: 0 0 0 45px;
   width: 192px;
   height: 34px;
-  margin-right: 62.7%;
-  font: bold 26px/ 30px 'pt_serifregular',arial ,helvetica,sans-serif;
+  margin-right: 57.5%;
+  font: bold 26px/ 32px 'pt_serifregular',arial ,helvetica,sans-serif;
   }
 
   .logo_circle{
     position: absolute;
-    left: 0;
+    left: -4px;
     top: 39%;
     transform: translateY(-50%);
     width: 28px;
@@ -99,7 +99,7 @@ body{
 }
 
 .main {
-  padding: 0 63% 287px 54px;
+  padding: 0 63% 287px 0;
   background: top right no-repeat url('img/mainImg.svg');
 }
 
