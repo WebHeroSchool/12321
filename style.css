@@ -177,7 +177,7 @@ margin-bottom: 78px;
 
 .menu__item {
 margin-right: 25px;
-font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
+font: 14px/16px 'Roboto',arial,helvetica, sans-serif;
 }
 
 .menu__item::after {
