@@ -19,7 +19,7 @@ body {
 .logo {
   width: 190px;
   height: 35px;
-  background: no-repeat url('img/logo.svg');
+  background: url('img/logo.svg');
 }
 
 .menu {
@@ -126,9 +126,9 @@ body {
 
 @media (max-width:1366px) {
 .wrapper {
-padding: 0 218px;
-max-width: 930px;
-max-height: 592px;
+    padding: 0 218px;
+    width: 930px;
+    height: 592px;
 }
 
 .header {
@@ -186,8 +186,8 @@ max-height: 592px;
 @media (max-width:1024px) {
 .wrapper {
     padding: 0 46px;
-    max-width: 931px;
-    max-height: 594px;
+    width: 931px;
+    height: 594px;
 }
 
 .header {
@@ -257,7 +257,8 @@ max-height: 592px;
 
 .logo {
     width: 36px;
-    background: no-repeat url('img/menumobile.svg');
+    height: 35px;
+    background: url('img/menumobile.svg');
 }
 
 .menu {
