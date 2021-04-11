@@ -172,25 +172,24 @@ max-height: 592px;
 
 .header {
 padding: 40px 0;
-margin-bottom: 78px;
+margin-bottom: 82px;
 }
 
+.menu {
+   margin: 6px 3px 0 0;
+ }
+
 .menu__item {
-margin-right: 25px;
+margin-right: 27px;
 font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
 }
 
-.menu__item::after {
-height: 2px;
-}
-
-.menu__item_active::after {
+.menu__item::after,.menu__item_active::after {
 height: 2px;
 }
 
 .main {
-padding: 15px 68% 200px 0;
-padding-right: 68%;
+padding: 15px 68% 147px 0;
 background: top right no-repeat url('img/image1366.svg');
 }
 
@@ -210,7 +209,15 @@ height: 43px;
 
 .main__button {
 font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
-padding: 14px 20px;
+padding: 14px 25px 13px 16px;
+}
+
+#menu__toggle{
+  opacity: 0;
+}
+
+.menu__box{
+  display: none;
 }
 }
 
@@ -226,22 +233,21 @@ padding: 40px 0;
 margin-bottom: 80px;
 }
 
+.menu {
+    margin: 4px 1px 0 0;
+}
+
 .menu__item {
-margin-right: 25px;
+margin-right: 26px;
 font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
 }
 
-.menu__item::after {
-height: 2px;
-}
-
-.menu__item_active::after {
+.menu__item::after,.menu__item_active::after {
 height: 2px;
 }
 
 .main {
-padding: 15px 57% 200px 0;
-padding-right: 57%;
+padding: 15px 57% 147px 0;
 background: top right no-repeat url('img/image1024.svg');
 }
 
@@ -254,24 +260,36 @@ max-height: 199px;
 
 .main__subtitle {
 margin: 0 0 36px 0;
-font: 18px/24px 'pt_serifregular',arial,helvetica,sans-serif;
+font: 18px/21px 'pt_serifregular',arial,helvetica,sans-serif;
 width: 367px;
 height: 48px;
 }
 
 .main__button {
 font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
-padding: 14px 20px;
+padding: 14px 25px 13px 16px;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+.menu__box {
+   display: none;
 }
 }
 
 @media (max-width:768px) {
 .wrapper {
-  margin: auto;
+  max-width: 87%;
+  padding: 0;
 }
 
 .header {
-margin-bottom: 28px;
+margin: 24px auto 28px;
+padding: 0;
+display: flex;
+justify-content: space-between;
 }
 
 .logo {
@@ -286,26 +304,115 @@ display: none;
 
 .main {
 text-align: center;
-padding: 78% 0 0 0;
+padding: 74% 0 0 0;
 background: top center no-repeat url('img/imagemobile.svg');
 }
 
 .main__title {
-margin: 0 0 44px 0;
+margin: 18px auto 44px;
+padding-left: 6px;
 font: 30px/40px 'pt_serifbold',arial,helvetica,sans-serif;
-width: 267px;
-height: 96px;
+width: 268px;
+height: 108px;
 }
 
 .main__subtitle {
-margin: 0 0 25px 0;
+margin: 0 auto 34px;
+padding-left: 6px;
 font: 16px/19px 'Roboto',arial,helvetica,sans-serif;
-max-width: 275px;
+max-width: 238px;
 max-height: 57px;
 }
 
 .main__button {
 font: 14px/16px 'Roboto',arial,helvetica,sans-serif;
-padding: 14px 20px;
-  }
+padding: 14px 25px 13px 16px;
+}
+
+.main_curcle{
+  display: none;
+}
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 32px;
+    right: 24px;
+    width: 25px;
+    height: 17px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn > span,.menu__btn > span::before,.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #0056ec;
+    transition: opacity 0.5s;
+}
+
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: initial;
+    margin: auto;
+    padding: 186px 0 205px 0;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    text-align: center;
+    background-color: #fff;
+    transition: opacity 0.5s;
+}
+
+.menu__item__box {
+    display: block;
+    margin-bottom: 25px;
+    color: #000;
+    font: 30px/35px 'robotomedium', arial, helvetica, sans-serif;
+    text-decoration: none;
+    transition: opacity 0.5s;
+}
+
+.menu__item__box:last-child {
+    padding-right: 2px;
+}
+
+.menu__item__box:hover {
+   opacity: 0.5;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
 }
