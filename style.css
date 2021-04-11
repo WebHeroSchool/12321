@@ -112,14 +112,13 @@ body{
 
 .main__title-text_highlight{
   color: black;
-  background: #ECF3FF;
+  background: linear-gradient(to top, #ecf3ff 78%, #fff 22%);
   cursor: pointer;
   transition: color .8s easy-out;
 }
 
 .main__title-text_highlight:hover{
  color: #7f6262;
- background: linear-gradient(to top, #ecf3ff 78%, #fff 22%);
 
 }
 
