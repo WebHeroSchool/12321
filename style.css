@@ -112,6 +112,7 @@ body{
 }
 
 .main__title-text_highlight{
+  position: relative;
   color: black;
   background: linear-gradient(to top, #ecf3ff 78%, #fff 22%);
   cursor: pointer;
@@ -121,6 +122,10 @@ body{
 .main__title-text_highlight:hover{
  color: #7f6262;
 
+}
+
+.noname{
+  position: absolute;
 }
 
 .main__subtitle{
