@@ -29,7 +29,7 @@ body { margin: 0; }
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -83,12 +83,12 @@ body { margin: 0; }
 
 .main__subtitle {
   margin: 0 0 42px 0;
-  font: 400 22px/26px 'robotoregular', arial, helvetica, sans-serif;
+  font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  font: 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
   background: no-repeat #0056ec;
   padding: 18px 34px 17px 21px;
@@ -134,7 +134,7 @@ body { margin: 0; }
 
   .menu__item {
     margin-right: 27px;
-    font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
+    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .menu__item::after { height: 2px; }
@@ -155,13 +155,13 @@ body { margin: 0; }
 
   .main__subtitle {
     margin: 0 0 41px 0;
-    font: 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+    font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
     width: 367px;
     height: 43px;
   }
 
   .main__button {
-    font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
+    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
     padding: 14px 25px 13px 16px;
   }
 
@@ -190,7 +190,7 @@ body { margin: 0; }
 
   .menu__item {
     margin-right: 26px;
-    font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
+    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .menu__item::after { height: 2px; }
@@ -211,13 +211,13 @@ body { margin: 0; }
 
   .main__subtitle {
     margin: 0 0 36px 0;
-    font: 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+    font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
     width: 367px;
     height: 48px;
   }
 
   .main__button {
-    font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
+    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
     padding: 14px 25px 13px 16px;
   }
 
@@ -264,7 +264,7 @@ body { margin: 0; }
   .main__subtitle {
     margin: 0 auto 34px;
     padding-left: 6px;
-    font: 16px/19px 'robotomedium', arial, helvetica, sans-serif;
+    font: 16px/19px 'Roboto', arial, helvetica, sans-serif;
     max-width: 238px;
     max-height: 57px;
   }
@@ -272,7 +272,7 @@ body { margin: 0; }
   .points { display: none; }
 
   .main__button {
-    font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
+    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
     padding: 14px 25px 13px 16px;
   }
 
@@ -329,7 +329,7 @@ body { margin: 0; }
     display: block;
     margin-bottom: 25px;
     color: #000;
-    font: 30px/35px 'robotomedium', arial, helvetica, sans-serif;
+    font: 30px/35px 'Roboto', arial, helvetica, sans-serif;
     text-decoration: none;
     transition: opacity 0.5s;
   }
